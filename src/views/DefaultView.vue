@@ -1,15 +1,14 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import HeaderComponent from '@/components/HeaderComponent.vue'
+import FooterComponent from '@/components/FooterComponent.vue'
 </script>
 
 <template>
-  <div class="flex flex-col justify-between h-screen bg-[orange]">
+  <div class="flex flex-col justify-between h-screen bg-[#FFC434]">
     <HeaderComponent />
     <RouterView />
-    <footer class="bg-slate-600 h-[100px]">
-      <h1>tchau</h1>
-    </footer>
+    <FooterComponent />
   </div>
 </template>
 
