@@ -8,7 +8,6 @@ import IconCoin from './icons/IconCoin.vue'
     <header class="h-[100px] w-screen bg-[#FFF6DE] img z-0">
       <div class="flex items-center justify-between mx-[500px] my-[10px]">
         <img src="/src/components/icons/IconLogo.png" alt="" class="w-[120px]" />
-        <!-- <IconLogo /> -->
         <div class="flex items-center gap-2">
           <IconCoin class="size-[30px]" />
           <div class="text-[30px] flex items-center BorderCoin">
