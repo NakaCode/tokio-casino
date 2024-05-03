@@ -58,6 +58,11 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'pocketMonk';
+  src: url('./public/fonts/PocketMonk.otf')
+}
+
 body {
   min-height: 100vh;
   transition:
