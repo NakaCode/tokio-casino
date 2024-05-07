@@ -1,19 +1,18 @@
 <script setup></script>
 
 <template>
-  <div class="w-screen h-screen footer">
-    <div class="flex jackpot bottom-0 w-[500px] h-[600px]">
-      <h1 class="Logo">JACKPOT</h1>
-    </div>
+  <div class="footer bottom-0 z-10 flex items-center justify-center">
+    <h1 class="w-[500px] h-auto bg-black z-20">JACKPOT</h1>
   </div>
 </template>
 
 <style scoped>
 .footer {
   width: 100%;
-  height: 600px;
+  height: 700px;
   background-image: url('/src/assets/BackgroundFooter.png');
-  background-size: contain;
+  position: absolute;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 </style>
