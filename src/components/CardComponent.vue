@@ -9,13 +9,13 @@ defineProps({
 }) 
 </script>
 <template>
-    <div class="w-[460px] h-[148px] flex flex-col items-end relative">
+    <div class="group w-[460px] h-[148px] flex flex-col items-end relative ">
         <div
             class=" bg-[url('../assets/rectangle2.svg')] w-[130.95px] h-[86px]  absolute">
             <p class="fontPerso text-white text-[14px] text-center absolute right-[10px] top-[6px]">total Online: {{ online }}</p>
         </div>
         <div
-            class="bg-[url('../assets/rectangle1.svg')] w-full h-[115px] rounded-tr-[15px] rounded-br-[15px] absolute bottom-0 right-0 drop-shadow-md">
+            class="bg-[url('../assets/rectangle1.svg')] w-full h-[115px] rounded-tr-[15px] rounded-br-[15px] absolute bottom-0 right-0 drop-shadow-[0_6px_0_rgba(0,0,0,0.1)] group-hover:drop-shadow-[0_18px_0_rgba(0,0,0,0.1)] transition-all">
             <h1
                 class="fontPerso absolute text-[#FFA826] right-[15%] top-[10%] w-[194.49px] h-[46.27px] text-[35px] text-center">
                 {{ title }}</h1>
@@ -31,9 +31,9 @@ defineProps({
             </div>
         </div>
         <div
-            class="bg-[#7A85F4] w-[62px] h-[48px] absolute right-[-10px] top-[45%] border-[#341D1A] border-solid border-2 rounded-[16px] ">
+            class="bg-[#7A85F4] w-[62px] group-hover:w-[80px] h-[48px] group-hover:h-[62px] transition-all absolute right-[-10px] top-[45%] border-[#341D1A] border-solid border-2 rounded-[16px] flex justify-center items-center hover:cursor-pointer">
             <div
-                class="bg-[url('../assets/playIcon.svg')] absolute bg-contain bg-no-repeat w-[33px] h-[25px] top-[22%] left-[32%]">
+                class="bg-[url('../assets/playIcon.svg')] bg-contain bg-no-repeat w-[33px] h-[25px]">
             </div>
         </div>
     </div>
