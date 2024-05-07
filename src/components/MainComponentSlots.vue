@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="w-screen h-screen z-20">
-    <h1>oi</h1>
+  <div class="w-full h-full z-20 flex justify-center items-start mt-[70px]">
+    <img src="/src/components/icons/TokioRool.png" alt="" class="w-[450px] h-auto" />
   </div>
 </template>
