@@ -3,6 +3,7 @@ import DefaultView from '../views/DefaultView.vue'
 import HomePage from '@/pages/HomePage.vue'
 import TokioSlotsView from '@/views/TokioSlotsView.vue'
 import MainComponentSlots from '@/components/MainComponentSlots.vue'
+import ProfilePage from '@/pages/ProfilePage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -31,6 +32,11 @@ const router = createRouter({
           component: MainComponentSlots
         }
       ]
+    },
+    {
+      path: '/profile',
+      name: 'Profile',
+      component: ProfilePage
     }
   ]
 })
