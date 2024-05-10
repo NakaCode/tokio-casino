@@ -4,6 +4,7 @@ import HomePage from '@/pages/HomePage.vue'
 import TokioSlotsView from '@/views/TokioSlotsView.vue'
 import MainComponentSlots from '@/components/MainComponentSlots.vue'
 import ProfilePage from '@/pages/ProfilePage.vue'
+import LottoPage from '@/pages/LottoPage.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,6 +38,11 @@ const router = createRouter({
       path: '/profile',
       name: 'Profile',
       component: ProfilePage
+    },
+    {
+      path: '/lotto',
+      name: 'Lotto',
+      component: LottoPage
     }
   ]
 })
