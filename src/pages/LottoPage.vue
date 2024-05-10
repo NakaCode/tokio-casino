@@ -11,10 +11,10 @@ import IconsSlotsComponent from '@/components/IconsSlotsComponent.vue';
         <div class="absolute inset-0 bg-[#AEFAF1]/80"></div>
         <div class="absolute w-full h-screen flex items-center justify-center">
             <div class="relative flex flex-col items justify-center w-[470px] h-[520px] bg-black">
-                <div class="absolute w-full h-[17.69%] bg-purple-500 top-0">
+                <div class="absolute flex w-full h-[17.69%] bg-purple-500 top-0">
                     <IconsSlotsComponent />
                 </div>
-                <div class="absolute bg-white w-full h-[10.58%] top-[20%]">
+                <div class="absolute flex bg-white w-full h-[10.58%] top-[20%]">
                     <AwardComponent />
                 </div>
                 <div class="absolute w-full h-[62.50%] top-[40%]">
